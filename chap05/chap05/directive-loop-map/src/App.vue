@@ -15,10 +15,10 @@ const whiteLady = ref(whiteLadyInit)
 </script>
 
 <template>
-  <dt>
+  <dl>
     <template v-for="(val, key) in whiteLady" v-bind:key="key">
       <dt>{{ key }}</dt>
       <dd>{{ val }}</dd>
     </template>
-  </dt>
+  </dl>
 </template>
